@@ -1,13 +1,12 @@
 .library .item {
 	display: inline-block;
-	;
-}
+ }
 body {
 	background-color: #222222;
+  text-align: center;
 }
-.library {
-	text-align: center
-}
+
+
 
 .item {
 	width: 300px;
@@ -15,12 +14,17 @@ body {
 
 .item img {
 	max-width: 100%;
-	padding: 20px 0 0 10px;
+	padding: 15px 0 0 10px;
 	opacity: 1;/*for example*/
-    transition: opacity .5s ease-in-out;
-
-	
+  transition: opacity .5s ease-in-out;	
 }
+
+.gallery {
+   margin: 40px 0 0 0;
+
+}
+
+
 
 .item img:hover {
 	opacity: 0.6;
@@ -31,7 +35,6 @@ body {
 /* overlay at start */
 .mfp-fade.mfp-bg {
   opacity: 0;
-
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -61,3 +64,4 @@ body {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+
